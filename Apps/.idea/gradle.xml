@@ -8,7 +8,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/DayWeather" />
+            <option value="$PROJECT_DIR$/GuideViewpagerDemo" />
+            <option value="$PROJECT_DIR$/ImageTools" />
+            <option value="$PROJECT_DIR$/SuperMvpWeather" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/browser" />
+            <option value="$PROJECT_DIR$/imageeditlibrary" />
+            <option value="$PROJECT_DIR$/images" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

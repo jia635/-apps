@@ -3,7 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Apps.iml" filepath="$PROJECT_DIR$/Apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DayWeather/DayWeather.iml" filepath="$PROJECT_DIR$/DayWeather/DayWeather.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GuideViewpagerDemo/GuideViewpagerDemo.iml" filepath="$PROJECT_DIR$/GuideViewpagerDemo/GuideViewpagerDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImageTools/ImageTools.iml" filepath="$PROJECT_DIR$/ImageTools/ImageTools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SuperMvpWeather/SuperMvpWeather.iml" filepath="$PROJECT_DIR$/SuperMvpWeather/SuperMvpWeather.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/browser/browser.iml" filepath="$PROJECT_DIR$/browser/browser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageeditlibrary/imageeditlibrary.iml" filepath="$PROJECT_DIR$/imageeditlibrary/imageeditlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/images/images.iml" filepath="$PROJECT_DIR$/images/images.iml" />
     </modules>
   </component>
 </project>

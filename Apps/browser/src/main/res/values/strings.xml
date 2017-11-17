@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">天天浏览器</string>
+    <string name="tabBarItem">TabBar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="input">输入网址</string>
+    <string name="wangzhan">手机酷站</string>
+    <string name="sousuo">搜索引擎</string>
+    <string name="gouwu">网上商城</string>
+    <string name="service">生活领域</string>
+    <string name="guanwang">手机官网</string>
+    <string name="xinlang">新浪</string>
+    <string name="tengxun">腾讯</string>
+    <string name="sohu">搜狐</string>
+    <string name="threeG">3G</string>
+    <string name="hupu">虎扑</string>
+    <string name="baidu">百度</string>
+    <string name="guge">谷歌</string>
+    <string name="soso">搜搜</string>
+    <string name="yicha">易查</string>
+    <string name="yahu">雅虎</string>
+    <string name="taobao">淘宝</string>
+    <string name="jingdong">京东</string>
+    <string name="suning">苏宁</string>
+    <string name="yixun">易迅</string>
+    <string name="yamaxun">亚马逊</string>
+    <string name="wuba">58同城</string>
+    <string name="ganji">赶集网</string>
+    <string name="baixing">百姓网</string>
+    <string name="dazhong">大众点评</string>
+    <string name="sanxing">三星官网</string>
+    <string name="huawei">华为官网</string>
+    <string name="xiaomi">小米官网</string>
+    <string name="zhongxing">努比亚官网</string>
+    <string name="htc">HTC官网</string>
+    <string name="name">名称</string>
+    <string name="url">网址</string>
+    <string name="my_bookmark">我的书签</string>
+    <string name="no_bookmark">亲，您还没添加书签哦~</string>
+
+    <string name="menu_about">关于</string>
+    <string name="menu_bookmark_add">添加收藏</string>
+    <string name="menu_bookmark_open">收藏网址</string>
+    <string name="menu_day">白天</string>
+    <string name="menu_exit">退出</string>
+    <string name="menu_history">历史记录</string>
+    <string name="menu_image">图片</string>
+    <string name="menu_night">夜晚</string>
+    <string name="menu_nocache">无痕模式</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_share">分享</string>
+    <string name="download">下载</string>
+    <string name="slide_right_txtUrl_hint">请输入网址</string>
+
+    <string name="slide_right_baidu">百度</string>
+    <string name="slide_right_cancel">取消</string>
+    <string name="slide_right_go">前往</string>
+    <string name="slide_right_go_search">搜索</string>
+    <string name="slide_right_keywords">请输入搜索词</string>
+    <string name="slide_right_search">百度</string>
+    
+    <string name="qq_appid">1103198930</string>
+    <string name="qq_splash">1070105082172749</string>
+    
+</resources>

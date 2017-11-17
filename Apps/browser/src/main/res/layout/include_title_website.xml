@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:visibility="gone"-->
+<RelativeLayout
+    android:id="@+id/title_lay_website"
+    android:layout_width="fill_parent"
+    android:layout_height="36.0dip"
+    android:layout_marginRight="11.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@+id/website_lay_right"
+        android:background="@drawable/title_back"
+        android:layout_width="55.0dip"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true">
+        <Button
+            android:textSize="14.0sp"
+            android:textColor="#ffaaaaaa"
+            android:id="@+id/website_search"
+            android:background="@drawable/top_title_back"
+            android:layout_width="55.0dip"
+            android:layout_height="fill_parent"
+            android:text="@string/slide_right_baidu"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="@drawable/top_title_back"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="11.0dip"
+        android:layout_marginRight="5.0dip"
+        android:layout_toLeftOf="@id/website_lay_right">
+        <ImageView
+            android:id="@+id/website_top_earth"
+            android:layout_width="17.0dip"
+            android:layout_height="17.0dip"
+            android:layout_marginLeft="9.5dip"
+            android:layout_marginRight="6.5dip"
+            android:src="@mipmap/app_web_browser_sm"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:id="@+id/website_top_line"
+            android:background="#ff979797"
+            android:layout_width="1.0px"
+            android:layout_height="20.0dip"
+            android:layout_toRightOf="@+id/website_top_earth"
+            android:layout_centerVertical="true" />
+        <LinearLayout
+            android:gravity="center"
+            android:id="@+id/website_url_lay_right"
+            android:layout_width="40.0dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true">
+            <ImageView
+                android:id="@+id/website_cancel"
+                android:visibility="visible"
+                android:layout_width="20.0dip"
+                android:layout_height="fill_parent"
+                android:src="@mipmap/ic_consol"
+                android:scaleType="centerInside" />
+            <ImageView
+                android:id="@+id/website_refresh"
+                android:visibility="gone"
+                android:layout_width="20.0dip"
+                android:layout_height="fill_parent"
+                android:src="@mipmap/ic_refresh"
+                android:scaleType="centerInside" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/website_line"
+            android:background="@mipmap/ic_titlebar_line"
+            android:visibility="visible"
+            android:layout_width="1.0px"
+            android:layout_height="fill_parent"
+            android:layout_toLeftOf="@id/website_url_lay_right" />
+        <EditText
+            android:textSize="14.0dip"
+            android:textColor="#ffaaaaaa"
+            android:textColorHighlight="@color/edittext_color_highlight"
+            android:id="@+id/website_edit"
+            android:background="#ffececec"
+            android:paddingLeft="10.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="1.0dip"
+            android:layout_marginBottom="1.0dip"
+            android:hint="@string/slide_right_txtUrl_hint"
+            android:singleLine="true"
+            android:drawablePadding="10.0dip"
+            android:layout_toLeftOf="@id/website_line"
+            android:layout_toRightOf="@id/website_top_line"
+            android:imeOptions="actionGo"
+            style="@style/autocomplete_style" />
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

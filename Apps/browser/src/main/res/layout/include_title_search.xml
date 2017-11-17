@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:visibility="gone"-->
+<RelativeLayout android:gravity="center_vertical"
+    android:id="@+id/title_lay_search"
+    android:layout_width="fill_parent"
+    android:layout_height="36.0dip"
+    android:layout_marginLeft="39.329987dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="6.0dip"
+        android:layout_toLeftOf="@+id/search_lay_right"
+        android:layout_alignParentLeft="true">
+        <EditText
+            android:textSize="14.0dip"
+            android:textColor="#ffaaaaaa"
+            android:id="@+id/search_edit"
+            android:background="#ffececec"
+            android:paddingLeft="10.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="1.0dip"
+            android:layout_marginRight="6.0dip"
+            android:layout_marginBottom="1.0dip"
+            android:hint="@string/slide_right_keywords"
+            android:singleLine="true"
+            android:layout_toRightOf="@id/title_top_line" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/search_lay_right"
+        android:layout_width="55.0dip"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="11.0dip"
+        android:layout_alignParentRight="true">
+        <Button
+            android:textSize="14.0sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/search_cancel"
+            android:background="@drawable/button_selector"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/slide_right_cancel" />
+        <Button
+            android:textSize="14.0sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/search_go"
+            android:background="@drawable/button_selector"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/slide_right_go_search" />
+    </RelativeLayout>
+</RelativeLayout>
