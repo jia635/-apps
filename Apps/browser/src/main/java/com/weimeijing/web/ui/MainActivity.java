@@ -101,9 +101,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         popup_exit = (RelativeLayout)findViewById(R.id.popup_exit);
         popup_setting = (RelativeLayout)findViewById(R.id.popup_setting);
 
-
-
-
         index_bottom_menu_more.setOnClickListener(this);
         index_bottom_menu_gohome.setOnClickListener(this);
         index_title_edit.setOnClickListener(this);
@@ -128,10 +125,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         search_title_url_clear.setOnClickListener(this);
         search_title_go.setOnClickListener(this);
 
-
-
         initHome();
-        initAd();
+//        initAd();
     }
 
 
